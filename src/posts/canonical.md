@@ -3,6 +3,7 @@ title: Canonical Distributions
 date: 2025-01-21
 summary: Comprehensive table comparing canonical distribution and its variants in terms of their modeling objectives, inputs/outputs, and probability distribution forms or PMFs
 ---
+Comprehensive table comparing canonical distribution and its variants in terms of their modeling objectives, inputs/outputs, and probability distribution forms or PMFs
 | **Distribution**            | **Modeling Objective**                                           | **Inputs**                                  | **Outputs**                                      | **Probability Form or PMF**                                                                                                                  |
 |------------------------------|------------------------------------------------------------------|---------------------------------------------|-------------------------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------|
 | **Canonical Distribution** (Boltzmann) | Models the probability of a system being in a specific state based on energy. | Energy levels $E_i$, inverse temperature $\beta = \frac{1}{k_B T}$. | Probabilities of states.                           | $P(i) = \frac{e^{-\beta E_i}}{Z}, \quad Z = \sum_{j} e^{-\beta E_j}$.                                                                    |
